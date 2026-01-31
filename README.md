@@ -1,4 +1,18 @@
 # Homura Dotfiles
+Dependency
+
+.wlogout
+
+.pywal
+
+.swaync
+
+.starship
+
+.JetBrainsMono Nerd Font font
+
+# Screenshots
+
 <img width="1920" height="1080" alt="terminal" src="https://github.com/user-attachments/assets/137878ad-cfe7-4451-9d1e-c4e12018113d" />
 
 
