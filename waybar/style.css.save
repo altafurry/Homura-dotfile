@@ -1,0 +1,88 @@
+@import url("file:///home/altafurry/.cache/wal/colors-waybar.css");
+
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    border: none;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#custom-logo,
+#clock,
+#workspaces,
+#tray,
+#custom-updates,
+#bluetooth,
+#pulseaudio,
+#network,
+#battery,
+#custom-notification,
+#custom-power {
+    background: rgba(14, 21, 18, 0.88);
+    border-radius: 12px;
+    border: 1px solid rgba(96, 154, 48, 0.3);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    padding: 5px 12px;
+    margin: 4px 3px;
+    color: @foreground;
+}
+
+#custom-logo {
+    font-size: 24px;
+    color: @color2;
+}
+
+#clock {
+    color: @color6;
+    font-weight: 600;
+}
+
+#workspaces {
+    padding: 3px 8px;
+}
+
+#workspaces button {
+    padding: 4px 8px;
+    margin: 0 2px;
+    background: transparent;
+    color: @color5;
+    border-radius: 8px;
+}
+
+#workspaces button.active {
+    color: @color2;
+    background: rgba(104, 160, 84, 0.25);
+}
+
+#custom-updates {
+    color: @color2;
+}
+
+#bluetooth {
+    color: @color4;
+}
+
+#pulseaudio {
+    color: @color3;
+}
+
+#network {
+    color: @color4;
+}
+
+#battery {
+    color: @color2;
+}
+
+#custom-notification {
+    color: @color4;
+}
+
+#custom-power {
+    color: #ef5350;
+    background: rgba(30, 20, 20, 0.88);
+}
